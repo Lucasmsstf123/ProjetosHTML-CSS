@@ -1,0 +1,141 @@
+html{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw; 
+    background: linear-gradient(45deg,  rgb(131, 189, 255), rgb(238, 246, 255), rgb(137, 192, 255));
+    /*background-image: url(https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2019/02/fundo-quadriculado-png-transparente9.png?fit=696%2C928&ssl=1);
+    background-color: rgb(216, 233, 255);*/
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    width: auto;
+}
+
+#foto{
+    margin-left: 0.5rem;
+    float: left;
+    border-width: 5px;
+    border-style:double;
+    border-color: rgb(149, 149, 149);
+    height: 210px;
+    width: 165px;
+}
+
+.header{
+    margin-left: 1%; 
+    float: left;
+}
+
+#sair{
+    margin-top: 0%;
+    margin-left: 35%;
+    height: 25pt;
+    width: 130px;
+    position: initial;
+    background-color: rgb(255, 255, 255);
+    border-style:double;
+    border-radius: 2rem;
+}
+#sair:hover{
+    background-color: rgb(250, 160, 50);
+
+    justify-content: center;
+    align-items: center;
+    position:static;
+    transition: 0.2s;
+    height: 90px;
+    width: 130px;
+    display: flex;
+    cursor: pointer;
+}
+
+#sair:hover::after{
+content: "Opções /////// Sair"
+}
+
+.info{
+    background-color: lightsteelblue;
+    
+}
+
+p{
+    text-indent: 10%;
+    background-color: rgb(209, 214, 220);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: larger;
+    transition-property:none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 0.2rem;
+
+}
+button{
+    margin-left: 1%;
+    height: 20pt;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    background-color: white;
+    border-color: rgb(213, 213, 213);
+    border-style:double;
+    border-radius: 1rem;
+    font-weight:bold;
+    cursor: pointer;
+}
+.places{
+    width: 130px;
+
+}
+.places:hover{
+    background-color: rgb(189, 222, 255);
+    margin-left: 1%;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    transition: 0.2s;
+    height: 200px;
+    width: 230px; 
+  
+}
+#margem{
+    margin-left: 10%;
+}
+
+#ensino:hover::after{
+    content: " ///////////////////////// Notas ///////////////////////// Indices ///////////////////////// Histórico ///////////////////////// Matrícula ///////////////////////// Trancamento";
+}
+#pesquisa:hover::after{
+    content: " ///////////////////////// Projetos ///////////////////////// Planos ///////////////////////// Relatórios ///////////////////////// Certificados ///////////////////////// Congresso";
+}
+#extensao:hover::after{
+    content: " ///////////////////////// Projetos ///////////////////////// Planos ///////////////////////// Relatórios ///////////////////////// Certificados ///////////////////////// Resultados";
+}
+#monitoria:hover::after{
+    content: " ///////////////////////// Projetos ///////////////////////// Indices ///////////////////////// Histórico ///////////////////////// Matrícula ///////////////////////// Trancamento";
+}
+#acoes:hover::after{
+    content: " ///////////////////////// Notas ///////////////////////// Indices ///////////////////////// Histórico ///////////////////////// Matrícula /////////////////////////  Trancamento";
+}
+#biblioteca:hover::after{
+    content: " ///////////////////////// Notas ///////////////////////// Indices ///////////////////////// Histórico ///////////////////////// Matrícula ///////////////////////// Trancamento";
+}
+#bolsas:hover::after{
+    content: " ///////////////////////// Notas ///////////////////////// Indices ///////////////////////// Histórico ///////////////////////// Matrícula ///////////////////////// Trancamento";
+}
+#estagio:hover::after{
+    content: " ///////////////////////// Notas ///////////////////////// Indices ///////////////////////// Histórico ///////////////////////// Matrícula ///////////////////////// Trancamento";
+}
+#ri:hover::after{
+    content: " ///////////////////////// Notas ///////////////////////// Indices ///////////////////////// Histórico ///////////////////////// Matrícula ///////////////////////// Trancamento";
+}
+#outros:hover::after{
+    content: " ///////////////////////// Notas ///////////////////////// Indices ///////////////////////// Histórico ///////////////////////// Matrícula ///////////////////////// Trancamento";
+}

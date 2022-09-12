@@ -1,0 +1,102 @@
+*{
+    background-color: rgb(27, 27, 27);
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    border-top: 0;
+}
+
+.side{
+    float: left;
+    margin-left: 2.3rem;
+}
+#textbox{
+    margin-top: 1.3rem;
+    height: 2.5rem;
+    border-radius: 2em;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    font-size: medium;
+    text-indent: 1rem;
+    border-width: 0;
+
+}
+#imagem{
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+}
+#x{
+    margin-top: 27px;
+    margin-left: 6px;
+    height: 30px;
+    color: white;
+    border-radius: 2em;
+    background-image: url(https://i.pinimg.com/originals/9d/4b/d5/9d4bd5272bcc747974ff0ea1ed80d9da.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    border-width: 0;
+    background-size: 20px;
+            width: 30px;
+            height: 30px;
+            font-size: 2rem;
+}
+#pesquisar{
+    margin-left: 0.2rem;
+    height: 3rem;
+    color: white;
+    border-radius: 2em;
+    background-image: url(https://png.pngtree.com/png-vector/20190329/ourlarge/pngtree-vector-magnifying-glass-icon-png-image_889405.jpg);
+    border-width: 0;
+    background-size: cover;
+            width: 30px;
+            height: 30px;
+            font-size: 2rem;
+}
+.header{
+    color: grey;
+    margin-left: 11rem;
+    margin-top: 2rem;
+    border-width: 0;
+    border-color: rgb(27, 27, 27);
+}
+#keep{
+    color: grey;
+    margin-left: 2.1rem;
+    margin-top: 2rem;
+    border-width: 0.2rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: rgb(27,27,27);
+    border-style: solid;
+}
+.header:hover{
+    color: lightblue;
+    border-width: 0.2rem ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: lightblue;
+}
+#keep:hover{
+    color: lightblue;
+    border-width: 0.2rem ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: lightblue;
+    border-style: solid;
+}
+#searchtime{
+    color: grey;
+    margin-top: 0.5rem;
+}
+
+.text{
+    text-indent: 11.2rem;
+    color: lightgray;
+    margin-bottom: 0%;
+}
+#lucas:hover{
+    background: linear-gradient(10deg, yellow, green, blue);
+}
