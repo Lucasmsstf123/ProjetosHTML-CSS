@@ -1,0 +1,256 @@
+html {
+    scrollbar-width: none;
+  }
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: repeating-linear-gradient(rgb(100,100,100), rgb(150, 150, 150), rgb(100,100,100));
+}
+
+hr{
+    border-color: white;
+    border-style: solid;
+}
+h1:hover{
+    animation: shaking 1000ms infinite;
+}
+
+#ptexts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow:wrap;
+}
+.pinfo{
+    height: 36vh;
+    width: 45%;
+    margin-bottom: 4vh;
+    background-color: rgb(70,70,70);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(100,100,100);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pinfo > p{
+    margin: 4%;
+}
+
+#sitebody{
+    display: flex;
+}
+
+#sitecenter{
+    width: 90%;
+    height: 88%;
+    background-color: rgb(20,20,20);
+    border: 0;
+    border-left: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    border-style: double;
+    border-color: rgb(100, 100, 100);
+    text-align: center;
+    font-size: larger;
+}
+
+#infocards{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards{
+    width: 20%;
+    height: 30vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: rgb(70,70,70);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(100,100,100);
+    transition: 0.5s;
+    color: white;
+}
+#card1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards:hover{
+    background-color: rgb(100,100,100);
+    animation: bordercolor 3000ms infinite;
+    transition: 0.5s;
+    margin-top: 3vh;
+    cursor: pointer;
+    box-shadow: 0 0 25px rgb(85, 85, 85) ;
+    
+}
+
+.sitemargin{
+    width: 10%;
+    height: 88%;
+}
+
+#header{
+    height: 12%;
+    background-color: rgb(70,70,70);
+    color: white;
+    display: flex;
+}
+#right{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(70,70,70);
+    transition: 0.5s;
+    position: relative;
+
+}
+#center{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+#logo{
+    height: 90%;
+    width: 90%;
+    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: none;
+}
+#left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#options{
+    height: 40%;
+    width: 25%;
+    line-height: 0;
+    transition: 0.5s;
+    position: relative;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(100,100,100);
+    color: white;
+    width: 100px;
+    font-weight: bold;
+}
+#top{
+    margin-top: 1vh;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#middle{
+    border-radius: 0;
+}
+#bottom{
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#ftperfil{
+    height: 3.66vw;
+    width: 4vw;
+    margin: 2%;
+    margin-right: 4%;
+    margin-left: 3%;
+    margin-top: 1.25%;
+    transition: 0.5s;
+    border: 3px;
+    border-style: groove;
+    border-color: rgb(120,120,120);
+    border-radius: 5px;
+}
+#right:hover > #ftperfil{
+    height: 11vw;
+    width: 12vw;
+    margin-top: 7%;
+}
+#right:hover{
+    height: 300%;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgb(120, 120, 120);  
+}
+#right:hover > img{
+    height: 18vh;
+    width: 7vw;   
+}
+#txt{
+    opacity: 0%;
+    transition: 0.5s;
+}
+#right:hover > #infocred > #txt{
+    opacity: 100%;
+    transition: 4s; 
+}
+#opt{
+    opacity: 0%;
+    transition: 250ms;
+}
+#options:hover > #opt{
+    opacity: 100%;
+    transition: 1s; 
+}
+
+@keyframes shaking
+{
+    0%{rotate: -3deg;}
+    25%{rotate: 3deg;}
+    50%{rotate: -3deg;}
+    75%{rotate: 3deg;}
+    100%{rotate: -3deg;}
+}
+
+@keyframes bordercolor
+{
+    0%{border-color: white;}
+    25%{border-color: grey;}
+    50%{border-color: white;}
+    75%{border-color: grey;}
+    100%{border-color: white;}
+}
